@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Admin Assistant</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Virtual Admin Assistant</h1>
+    <label for="date">Select Appointment Date:</label>
+    <input type="date" id="date">
+
+    <label for="time">Select Time:</label>
+    <input type="time" id="time">
+
+    <button onclick="bookAppointment()">Book Appointment</button>
+    <button onclick="cancelAppointment()">Cancel</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
